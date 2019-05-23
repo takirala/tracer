@@ -9,12 +9,16 @@ sbt assembly
 java -jar <jar-generated-above>
 ```
 
-things jar can do :
+### Supported commands :
 
 **seturls** : url (or a csv of urls) to use.
+
 **hit** : hit each endpoint with multiple clients and log the dns resolution records.
+
 **dump** : print the DNS cache
+
 **clear** : clear the DNS cache
+
 **resolve** : resolve a hostname. optionally takes a custom DNS server.
 
 Writes to `stderr`
